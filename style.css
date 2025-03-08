@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_container{
+    height: 550px;
+    width: 400px;
+    background-color: #161616;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 10px #000000b7,
+            inset 1px 1px 10px #ffffff8e;
+}
+.container{
+    height: 500px;
+    width: 380px;
+    margin: auto;
+}
+h1{
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+    color: #0040ff;
+}
+.input{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    padding: 0 10px 0 10px;
+}
+#inputBox{
+    outline: none;
+    border: 2px solid #ffffff;
+    height: 100%;
+    width: 300px;  
+    font-size: 17px;
+    color: #ffffff;
+    padding: 0 10px 0 10px;
+    background-color: transparent;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#inputBox::placeholder{
+    background-color: #161616;
+    color: #0040ff;
+}
+.add{
+    height: 100%;
+    width: 80px;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    color: #0040ff;
+    background: transparent;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+ul{
+   width: 95%;
+   height: 410px;
+   margin: 20px 0 0 10px;
+   padding: 10px 0px 5px 0px;
+   border-radius: 10px;
+   overflow: scroll;
+   scrollbar-width: none;
+} 
+ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 60px;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: inset -1px -1px 3px ;
+}
+ul li.complete{
+    background: #5497fb59;
+}
+ul li button{
+    height: 35px;
+    width: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: transparent;
+    color: #0040ff;
+    font-size: 13px;
+    box-shadow: 0 0 5px #ffffff;
+    border: none;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ul li .todo{
+   height: 100%;
+   width: 280px;
+   display: flex;
+   align-items: center;
+   padding: 0 10px 0px 15px;
+   color: #ffffff;
+   font-size: 18px;
+}
+.edit{
+   background-image: url('edit.png');
+   background-color: #0040ff;
+}
+.delete{
+    background-image: url('delete.png');
+    background-color: #ff0000;
+}
