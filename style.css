@@ -109,8 +109,9 @@ ul li .todo{
    font-size: 18px;
 }
 .edit{
-   background-image: url('edit.png');
+   /* background-image: url('edit.png'); */
    background-color: #0040ff;
+   color: white;
 }
 .delete{
     background-image: url('delete.png');
